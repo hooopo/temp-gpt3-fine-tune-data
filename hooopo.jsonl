@@ -1,0 +1,2 @@
+{"prompt":"[ossinsight] What are the top types of events based on the count of events in github_events?", "completion":"SELECT type, COUNT(*) as events_count FROM github_events GROUP BY type ORDER BY 2 DESC"}
+{"prompt":"[ossinsight] How many pull requests were opened on kubernetes/kubernetes repository in the month of january 2022", "completion":"SELECT COUNT(*) as pr_opened FROM github_events WHERE repo_name='kubernetes/kubernetes' AND type='PullRequestEvent' AND action='opened' AND event_month='2022-01-01'"}
