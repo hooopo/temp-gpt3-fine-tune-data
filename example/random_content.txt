@@ -1,0 +1,1 @@
+This is a test file created with random content. It has no specific purpose other than to serve as an example for a GHC publishing request. Please feel free to modify or remove it as needed. It's a simple demonstration of how GHL page can interact with GitHub repositories.
